@@ -1,0 +1,27 @@
+{
+	"/": [
+		"src/routes/+layout.server.ts"
+	],
+	"/api/preview": [
+		"src/routes/api/preview/+server.ts"
+	],
+	"/[[preview=preview]]/blog/[uid]": [
+		"src/routes/[[preview=preview]]/blog/[uid]/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/[[preview=preview]]/project/[uid]": [
+		"src/routes/[[preview=preview]]/project/[uid]/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/slice-simulator": [
+		"src/routes/+layout.server.ts"
+	],
+	"/[[preview=preview]]": [
+		"src/routes/[[preview=preview]]/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/[[preview=preview]]/[uid]": [
+		"src/routes/[[preview=preview]]/[uid]/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	]
+}
